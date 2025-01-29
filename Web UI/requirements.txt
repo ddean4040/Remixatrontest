@@ -23,7 +23,6 @@ Jinja2
 joblib
 librosa
 llvmlite
-madmom
 MarkupSafe
 mido
 monotonic
