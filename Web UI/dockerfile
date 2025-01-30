@@ -9,7 +9,7 @@ RUN apt-get clean
 # Install pip dependencies
 RUN pip install --upgrade pip
 RUN pip install --upgrade yt-dlp cython Cython numpy
-RUN RUN pip install git+https://github.com/CPJKU/madmom
+RUN pip install git+https://github.com/CPJKU/madmom
 
 # Create a working directory
 WORKDIR /app
