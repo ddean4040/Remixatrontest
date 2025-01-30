@@ -610,6 +610,9 @@ function playback(createNew = true){
         spritedef[beat.id + 1] = [start, duration];
     });
 
+    // Play on iOS even if the ringer is muted
+    navigator.audioSession.type = 'playback';
+ 
     sound = new Howl({
         src: ['/getaudio?' + Math.random()],
         format: ['mp3'],
