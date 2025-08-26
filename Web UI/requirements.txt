@@ -34,7 +34,7 @@ packaging
 pooch
 pycparser
 pycryptodomex
-PyGObject
+PyGObject==3.50.0
 pyparsing
 python-engineio
 python-socketio
